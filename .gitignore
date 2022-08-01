@@ -121,4 +121,4 @@ dmypy.json
 !.vscode/extensions.json
 
 # Testes Aleatórios
-.testes/*
+.Testes/*
