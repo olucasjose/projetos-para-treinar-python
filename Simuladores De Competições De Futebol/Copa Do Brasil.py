@@ -12,18 +12,18 @@ print('Simulação: Copa do Brasil 2022')
 
 print('\n')
  
-finalista_01 = 'São Paulo' #input('Escolha um time: ')
+finalista_01 = 'Corinthians' #input('Escolha um time: ')
 finalista_02 = 'Palmeiras' #input('Escolha o adversário: ')
 
 print('\n')
 
-finalista_01_ida = random.randint(0,0)
-finalista_02_ida = random.randint(0,0)
+finalista_01_ida = random.randint(0,4)
+finalista_02_ida = random.randint(0,4)
 
 print('Jogo 1/2: ' + finalista_01 + ' ' + str(finalista_01_ida) + ' x ' + str(finalista_02_ida) + ' ' + finalista_02)
 
-finalista_02_volta = random.randint(0,0)
-finalista_01_volta = random.randint(0,0)
+finalista_02_volta = random.randint(0,4)
+finalista_01_volta = random.randint(0,4)
 
 print('Jogo 2/2: ' + finalista_02 + ' ' + str(finalista_02_volta) + ' x ' + str(finalista_01_volta) + ' ' + finalista_01)
 
@@ -52,8 +52,8 @@ if finalista_02_gols == finalista_01_gols:
     print('\n')
 
     #Primeira cobrança de pênaltis.
-    finalista_01_penalti_01 = random.randint(0,0)
-    finalista_02_penalti_01 = random.randint(0,0)
+    finalista_01_penalti_01 = random.randint(0,1)
+    finalista_02_penalti_01 = random.randint(0,1)
     print('1ª cobrança:')
     print(finalista_01 + ': ' + str(finalista_01_penalti_01))
     print(finalista_02 + ': ' + str(finalista_02_penalti_01))
@@ -61,8 +61,8 @@ if finalista_02_gols == finalista_01_gols:
     print('\n')
     
     #Segunda cobrança de pênaltis.
-    finalista_01_penalti_02 = random.randint(0,0)
-    finalista_02_penalti_02 = random.randint(0,0)
+    finalista_01_penalti_02 = random.randint(0,1)
+    finalista_02_penalti_02 = random.randint(0,1)
     print('2ª cobrança:')
     print(finalista_01 + ': ' + str(finalista_01_penalti_02))
     print(finalista_02 + ': ' + str(finalista_02_penalti_02))
@@ -70,8 +70,8 @@ if finalista_02_gols == finalista_01_gols:
     print('\n')
 
     #Terceira cobrança de pênaltis.
-    finalista_01_penalti_03 = random.randint(0,0)
-    finalista_02_penalti_03 = random.randint(0,0)
+    finalista_01_penalti_03 = random.randint(0,1)
+    finalista_02_penalti_03 = random.randint(0,1)
     print('3ª cobrança:')
     print(finalista_01 + ': ' + str(finalista_01_penalti_03))
     print(finalista_02 + ': ' + str(finalista_02_penalti_03))
@@ -79,8 +79,8 @@ if finalista_02_gols == finalista_01_gols:
     print('\n')
     
     #Quarta cobrança de pênaltis.
-    finalista_01_penalti_04 = random.randint(0,0)
-    finalista_02_penalti_04 = random.randint(0,0)
+    finalista_01_penalti_04 = random.randint(0,1)
+    finalista_02_penalti_04 = random.randint(0,1)
     print('4ª cobrança:')
     print(finalista_01 + ': ' + str(finalista_01_penalti_04))
     print(finalista_02 + ': ' + str(finalista_02_penalti_04))
@@ -88,8 +88,8 @@ if finalista_02_gols == finalista_01_gols:
     print('\n')
     
     #Quinta cobrança de pênaltis.
-    finalista_01_penalti_05 = random.randint(0,0)
-    finalista_02_penalti_05 = random.randint(0,0)
+    finalista_01_penalti_05 = random.randint(0,1)
+    finalista_02_penalti_05 = random.randint(0,1)
     print('5ª cobrança:')
     print(finalista_01 + ': ' + str(finalista_01_penalti_05))
     print(finalista_02 + ': ' + str(finalista_02_penalti_05))
@@ -160,8 +160,8 @@ if finalista_02_gols == finalista_01_gols:
 
         print('Placar final:')
         #print(repeticao)
-        print(f01pa)
-        print(f02pa)
+        #print(f01pa)
+        #print(f02pa)
         print(finalista_02 + ' ' + str(finalista_02_gols) + '(' + str(finalista_02_5cobrancas + (finalista_02_penalti_alternado * repeticao)) + ')' ' x ' '(' + str(finalista_01_5cobrancas + (finalista_01_penalti_alternado * repeticao)) + ')' + str(finalista_01_gols) + ' ' + finalista_01)
 
         

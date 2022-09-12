@@ -8,7 +8,7 @@ def avaliar_resposta():
         os.system("clear")
         print('Acertou!')
     else:
-        print('Errou!')
+        print('Errou! O resultado é %s.' % resultado)
         resposta = 'errada'
 
 '''
