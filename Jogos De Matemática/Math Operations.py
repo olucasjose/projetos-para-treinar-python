@@ -76,6 +76,7 @@ Ideias para recursos:
 3. Cadastro para guardar nome de jogadores.
 4. Histórico de maiores rankings de acertos.
 5. Sistema onde o jogador possa definir o nível de dificuldade.
+5. Cada loop um nivel, ou uma variavel que aumenta o nivel a cada x rodadas certas.
 '''
 
 '''
